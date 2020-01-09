@@ -1,0 +1,407 @@
+
+nav {
+    /* line-height: .8; */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    z-index: 100;
+
+}
+
+.navbar{
+    padding:0;
+}
+nav .navbar-brand{
+    font-size:2rem;
+    font-weight: 500;
+    padding-left:3rem;
+    
+}
+ul li .nav-link{
+    color:black;
+    font-weight:bold;
+    font-size:1rem;
+}
+.heading{
+    padding-top:8rem;
+    padding-bottom:5rem;
+    background-color: #3f51b5;
+    text-align: center;
+}
+/* .head{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center
+} */
+.headtitle{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-size:1.5rem; */
+    /* font-weight:400; */
+}
+.sub-headtitle{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:3rem; 
+    font-weight:bold; 
+}
+
+
+
+.headbtn{
+    width:8.5rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 400;
+    
+
+  
+    border:none;
+    outline:none;
+}
+
+.mainimg{
+   background-size: cover;
+
+}
+.lorem{
+    
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    color:#fff;
+}
+.sub-lorem{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    color:#fff;
+
+}
+
+/* features */
+.features{
+    padding-top:7rem;
+    padding-bottom:5rem;
+    background-color:#f5fafa;
+}
+.featurehead{
+    font-size:3rem;
+    font-weight:400;
+}
+
+.featurespara{
+    font-size: 1rem;
+    opacity: .8;
+}
+/* 
+.featurehead{
+    font-size:3rem;
+    font-weight:400;
+}
+
+.featurespara{
+    font-size: 1rem;
+    opacity: .8;
+}
+
+
+.sub-feature{
+    display:flex;
+    flex-direction: row;
+  
+}
+
+.firstpara{
+    display:flex;
+    flex-direction: column
+
+}
+.secndpara{
+    display:flex;
+    flex-direction: column
+} */
+
+.rowtop{
+    margin-top:7rem;
+}
+.num{
+    font-size:4rem;
+    font-weight:400;
+}
+.fullresponsive{
+    font-size:1.4rem;
+    font-weight: 500;
+}
+/* end of features */
+
+/*Service*/
+
+.service{
+    padding-top:7rem;
+    padding-bottom:5rem;
+
+}
+.servicetitle{
+    font-size:3rem;
+    font-weight:400;
+    
+}
+
+.servicepara{
+    font-size: 1rem;
+    opacity: .8;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.servicesmallpara{
+    font-size:0.9rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-weight:500; */
+    margin-top:10rem;
+
+}
+
+.service-sidehead{
+    font-size:1.7rem;
+    font-weight: 400;
+    margin-top:1.8rem;
+}
+
+.servicelargepara{
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-top:2.7rem;
+}
+
+/*End of Service*/
+
+
+/* customer */
+
+.customer{
+    padding-top:7rem;
+    padding-bottom:5rem;
+    background-color: #3f51b5;
+}
+
+.customertitle{
+    font-size:3rem;
+    font-weight:400;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.customerpara{
+    font-size: 1rem;
+    opacity: .8;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+
+}
+
+.example-card {
+    max-width: 700px;
+    /* height: 300px; */
+  }
+  
+  .example-header-image {
+    background-image: url('../assets/face.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin:auto
+  }
+
+  .customer-sub-para{
+      font-size:1.2rem;
+      color:grey;
+
+  }
+
+  /* .customerpara{
+      font-size:3rem;
+      font-family:Arial, Helvetica, sans-serif;
+  } */
+/* end of customer */
+
+
+
+/* price */
+.price{
+
+    padding-top:7rem;
+    padding-bottom:5rem;
+
+}
+.pricetitle{
+    font-size:3rem;
+    font-weight:400;
+    
+
+}
+.pricepara{
+    font-size: 1rem;
+    opacity: .8;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.basictitle{
+    background-color: rgb(230, 64, 119);
+    padding:2rem;
+    color:#fff;
+}
+.basicsubtile{
+    background-color: #3f51b5;
+    font-family:'Roboto',Arial, Helvetica, sans-serif;
+    color:#fff;
+    padding-top:1.2rem;
+    padding-bottom:1.2rem;
+
+    font-weight:300;
+
+}
+basicsubtile-1{
+    opacity: 0.8;
+
+}
+
+/* end of price */
+
+/* writeus */
+
+.writeus{
+    padding-top:7rem;
+    padding-bottom:5rem;
+    background-color:#F5FAFA
+
+}
+
+.writetitle{
+    font-size:3rem;
+    font-weight:400;
+  
+
+}
+
+.writepara{
+    font-size: 1rem;
+    opacity: .8;
+
+}
+
+.example-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .writeusbtn{
+    width:8.5rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 400;
+    
+
+  
+    border:none;
+    outline:none;
+}
+
+
+/* end of write us */
+
+
+/* illum */
+.illum{
+
+    padding-top:8rem;
+    padding-bottom:5rem;
+
+    background-color: #3f51b5;
+
+}
+
+.illumtitle{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.illumpara{
+    color:#fff;
+    font-size:1.2rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.illubtn{
+
+    width:8.5rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 400;
+    
+
+  
+    border:none;
+    outline:none;
+
+}
+
+/* end of illum */
+
+
+
+/* footer */
+
+.angland{
+    /* padding-top:7rem;
+    padding-bottom:5rem; */
+
+}
+
+.ang{
+}
+.angpara{
+    font-size:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    opacity: 0.8;
+}
+
+.footbtn{
+    width:8.5rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 400;
+    
+
+  
+    border:none;
+    outline:none;
+
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* .sticky + .content {
+    padding-top: 60px;
+  } */
+
+/* end of footer */
